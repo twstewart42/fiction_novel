@@ -2,7 +2,7 @@
 
 Everything I have learned for formatting a novel with LaTeX.
 
-## Prequiste
+## Prerequisite
 
 Install latest texlive package (this will include all add on packages like memoir, plus much more.) the texlive package that is included with Ubuntu is old and does not support everything, it is highly recommended to download the full source from https://www.tug.org/texlive/ and install manually.  
 
