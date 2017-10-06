@@ -27,8 +27,9 @@ main.pdf - this is the result of all the above files complied together and publi
 Please just use this as a framework and reference, I am still very new to LaTeX so there could be many things that I am not doing entirely correctly.
 
 ## Bonus - Going from pdf to epub
-This was a journey of tiral and error, so I would like to document it here
-use `$ htlatex main.tex` to produce main.html an html version of the final product. This will also produce a crapton of other support files.
+This was a journey of tiral and error, so I would like to document it here  
+Install `sudo apt install tex4ht` for html latex support.  
+`$ htlatex main.tex` to produce main.html an html version of the final product. This will also produce a crapton of other support files. 
 
 Use [Calibre](https://calibre-ebook.com/) to import the main.html and add metadata, bookcover, and convert to .epub. Save .epub to disk.
 
