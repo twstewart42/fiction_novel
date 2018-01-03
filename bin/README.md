@@ -4,13 +4,15 @@ For more information on how Linux can be used for writing see my creative blog h
 
 ## storygen.sh
 About: Creates Skeleton structure of files and dirs that I liek to have when starting a new story. 
+```
 Command: ./storygen.sh nameofstory
            | 
            \ creates: nameofstory/{manuscript,notes,assets,misc}/
                                                                 \ and various files on this level
-
+```
 ## writing_log.sh
-About: Creates a log entry for Timestamp, Entry #, Current Word Count, and Diff word count between the latest entry and last entry
+About: Creates a log entry for Timestamp, Entry number, Current Word Count, and Diff word count between the latest entry and last entry
+```
 Command: ./writing_log STORY_DIR/story.txt
           |
           \ -> adds entry to STORY_DIR/misc/writing_log.md
@@ -25,11 +27,12 @@ Command: ./writing_log STORY_DIR/story.txt
   Entry #: 6
   Word Count: 9134
   Diff Count: 270
-
+```
 
 
 ## timer.sh
 About: Countdown timer in minutes, for writing sprints
+```
 Command: ./timer.sh 25 - countsdown from 25 minutes, displays remaining seconds
          |
          \
@@ -44,7 +47,7 @@ Command: ./timer.sh 25 - countsdown from 25 minutes, displays remaining seconds
            !!!!FINISHED!!!!
            !!!!FINISHED!!!!
            !!!!FINISHED!!!!
-
+```
 
 ## thes.sh
 About: retrieves thesaurs results from thesaurs.com
